@@ -1,0 +1,25 @@
+
+public class MethodInvoke {
+
+	public static void main(String[] args) {
+/*
+		Factorial f = new Factorial();
+		f.main(args, 10);
+		*/
+		fact(10);
+		
+	}
+
+	public static  void fact(int n){
+		int output;
+		int out = 1;
+		int length =n;
+		for(int i=0;i<length;i++){
+			output = (n-1);
+			n=output;
+			out =out* output;
+		//	System.out.println(out);
+		}
+		System.out.println(n*out);
+	}
+}

@@ -1,0 +1,21 @@
+
+public class MethodInvoke {
+
+	public static void main(String[] args) {
+
+		Factorial f = new Factorial();
+		f.main(args, 10);
+		
+	}
+
+	public  void fact(){
+		int n=20;
+		int output;
+		for(int i=0;i<n;i++){
+			output = (n-1);
+			n=output;
+			System.out.println(output);
+		}
+		
+	}
+}

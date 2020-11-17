@@ -1,0 +1,22 @@
+
+public class Fibanocci {
+
+	public static void main(String[] args) {
+		// Fibanocci series -- following number is the sum of before 2 values
+		// 0 1 1 2 3 5 a=0, b=1 initialization then following num c= a+b , then
+		// swap the values b to a and c to b then again following num will add
+		// loop
+		int a = 0 ;
+		int b = 1;
+		int c;
+		int length = 10;
+		System.out.println(a + " " + b);
+		for (int i = 0; i < length; i++) {
+			
+			c = a + b;
+			System.out.println(" " + i);
+			a = b;
+			b = c;
+		}
+	}
+}

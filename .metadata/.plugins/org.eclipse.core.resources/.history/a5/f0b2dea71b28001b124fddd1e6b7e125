@@ -1,0 +1,13 @@
+
+public class testmain {
+
+	public static void main(String[] args) {
+	int length = 0;
+		for(int i=1; i<length; i++){
+			for(int j=0; j<length; j++){
+			System.out.print(i);
+			}
+			System.out.println("");
+		}		
+	}
+}

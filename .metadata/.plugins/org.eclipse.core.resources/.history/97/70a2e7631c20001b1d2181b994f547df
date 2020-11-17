@@ -1,0 +1,29 @@
+package collections;
+
+
+public class reverse_assign {
+
+	public static void main(String[] args){
+		int num[]= {2,3,3,4,4,5,6,1};
+		int n=num.length; 
+	//	int distinctval =0;
+		int i,j;
+		System.out.print("Distinct values are: ");
+		for(i=0; i<n;i++){
+			
+			//System.out.println(num[i]);
+			for(j=0;j<i;j++){
+				if(num[i]==num[j])
+					break;
+		}
+				if(i==j){
+					
+					int distinctval =num[i];
+					 System.out.print(distinctval + " ");
+			
+		}
+				System.out.print(distinctval + " ");
+		
+	}
+	}
+}

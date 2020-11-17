@@ -1,0 +1,15 @@
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+
+		String input = "MADAM";	
+		char ch[] = input.toCharArray();
+		for(int i=0;i<input.length();i++){
+			System.out.println(ch[i]);
+		}		
+		for(int j=input.length()-1;j>=0;j--){
+			System.out.println(ch[j]);
+		}
+	}
+}

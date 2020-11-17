@@ -1,0 +1,22 @@
+package collections;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		String input = "AHCECLWLXO";
+		String in ="HELLO";
+		String out = "";
+		String output = "";
+		//String output = input.charAt(index)
+		for(int i=0; i<input.length();i=i+2){
+			System.out.println(input.charAt(i));
+			 output =output + input.charAt(i);
+			if(output.contains("H")){
+				out =out+input.charAt(i);
+				System.out.println(out);
+			}
+		}
+
+	}
+
+}

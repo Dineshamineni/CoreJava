@@ -1,0 +1,18 @@
+package collections;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		String input = "ahceclwlxo";
+		String output = "";
+		// String output = input.charAt(index)
+		for (int i = 1; i < input.length(); i = i + 2) {
+			output = output + input.charAt(i);
+			// System.out.println(output);
+		}
+		System.out.println(output.toUpperCase());
+		System.out.println(output.toLowerCase());
+		System.out.println(output.substring(0,1).toLowerCase());
+	}
+
+}

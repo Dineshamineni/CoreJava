@@ -1,0 +1,21 @@
+import java.util.HashMap;
+
+public class Worldcup {
+
+	public static void main(String[] args) {
+
+		int year = 1983;
+
+		if (year == 1975) {
+			System.out.println("West Indies " + "Won the match");
+
+		}else if(year == 1979){
+			System.out.println("West Indies " + "Won the match");
+		}else if(year == 1983){
+			System.out.println("Inida " + "Won the match");
+		}else if(year == 1987){
+			System.out.println("Australia " + "Won the match");
+		}
+	}
+
+}

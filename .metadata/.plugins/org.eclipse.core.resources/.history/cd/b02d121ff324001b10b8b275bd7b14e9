@@ -1,0 +1,30 @@
+
+//how to store the value in a variable which are getting in loop
+public class Palindrome {
+
+	public static void main(String[] args) {
+
+		String input = "MADAM";
+		String output = null ;
+		System.out.println(output.split(input));
+		String ch = input.toString();
+System.out.println(ch.split(output));
+		for (int j = input.length() - 1; j >= 0; j--) {
+			
+			output = ch.valueOf(j);		
+
+			System.out.print(output);
+		}
+	/*	System.out.println(output);
+	if(input.equals(output))
+
+	{
+		System.out.print("Entered value is Palindrome");
+	}else
+	{
+	
+		System.out.print("Entered value is not Palindrome");
+	}
+	*/
+	}
+}

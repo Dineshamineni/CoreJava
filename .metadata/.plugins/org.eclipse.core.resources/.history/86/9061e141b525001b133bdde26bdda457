@@ -1,0 +1,10 @@
+
+public class MethodInvoke {
+
+	public static void main(String[] args) {
+
+		Factorial f = new Factorial();
+		f.main(args, 10);
+	}
+
+}

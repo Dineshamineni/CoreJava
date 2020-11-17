@@ -1,0 +1,20 @@
+import java.util.HashMap;
+
+public class Worldcup {
+
+	public static void main(String[] args) {
+
+	int  year=1983;
+		
+		if (year ==	1975
+){
+			System.out.println(capitalCities.values());
+			
+		
+		}
+		}
+	
+	}
+
+
+

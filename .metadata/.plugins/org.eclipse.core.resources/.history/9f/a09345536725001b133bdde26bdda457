@@ -1,0 +1,17 @@
+package collections;
+//2: Ask user to enter a number and then print the multiplication table of the input number.
+
+public class MultiplicationTable {
+	public static void main(String[] args){
+		
+		int input =2;
+		for(int i=0; i<=10; i++){
+			input = input *(i+1);
+			System.out.println(input);
+			
+		}
+		
+		
+	}
+
+}
